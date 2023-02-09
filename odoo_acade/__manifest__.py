@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-(
-    
+{
     "name":"odoo academy",
     "summary":"Academy app to",
     "description":"""Academy to module training:
@@ -17,4 +16,7 @@
     ],
     "odoo":[
     ],
-)
+
+
+}
+    
