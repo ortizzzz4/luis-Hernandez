@@ -11,10 +11,10 @@
     "author":"odoo",
     "website":"https://wwww.odoo.com",
     "version":"0.1",
-    "depend":["base"],
+    "depends":["base"],
     "data":[
     ],
-    "odoo":[
+    "demo":[
     ],
 
 
