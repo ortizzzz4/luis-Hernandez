@@ -18,4 +18,4 @@ class Course(models.Model):
     
     country = fields.Selectio=(string='Level',selection =[('El Salvador', 'San Salvador'),
                                         ('Guatemala','Guatemala'),
-                                       ('Mexico','Mexico DF')],   
+                                       ('Mexico','Mexico DF')],   )
