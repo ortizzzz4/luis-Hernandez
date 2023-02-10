@@ -1,22 +1,28 @@
 # -*- coding: utf-8 -*-
-
 {
-    "name":"odoo academy",
-    "summary":"Academy app to",
-    "description":"""Academy to module training:
-    -Courses
-    -Sessions
-    -Attenders
-    """,
-    "author":"odoo",
-    "website":"https://wwww.odoo.com",
-    "version":"0.1",
-    "depends":["base"],
-    "data":[
+    'name': 'Odoo Academy',
+    'summary': """Academy app to manage Trailing""",
+    'description': ""
+                    "    Academy Module to manage Training "
+                    "    -Courses"
+                    "    -Sessions"
+                    "    -Attendees"
+                    "    ",
+    'author':'odoo',
+    'website': 'https://www.odoo.com',
+    'category': 'Training',
+    'version': "0.1",
+    'depends':["base"],
+    'data':[
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',
+
     ],
-    "demo":[
+    'demo':[
+        'demo/academy_demo.xml',
+       
     ],
 
 
 }
-    
+
