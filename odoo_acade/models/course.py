@@ -16,6 +16,4 @@ class Course(models.Model):
                             copy=False)
     active = fields.Boolean(string='Active', default=True)
     
-    country = fields.Selectio=(string='Level',selection =[('El Salvador', 'San Salvador'),
-                                        ('Guatemala','Guatemala'),
-                                       ('Mexico','Mexico DF')],   )
+    
